@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+﻿<html>
+﻿    <head>
+﻿        <meta charset="utf-8">
+﻿        <title>PUNKTY LOSOWE</title>
+<link rel="stylesheet" href="q.css">
+﻿    </head>
+﻿    <body>
+
+<canvas width="750" height="750"></canvas>
+
+<button type="button" class="guzik_los1000" id="guzik_los1000"> <b>LOSOWO 1000</b> </button>
+<button type="button" class="guzik_los2500" id="guzik_los2500"> <b>LOSOWO 2500</b> </button>
+<button type="button" class="guzik_nielos" id="guzik_nielos"> <b>NIELOSOWO 1000</b> </button>
+ <button  type="button" class="guzik_kasuj" id="guzik_kasuj"> <b> KASUJ </b> </button>
+ <button  type="button" class="guzik_siatka" id="guzik_siatka"> <b> SIATKA </b> </button>
+
+
+
+
+ <table border=1 class="tabelka" id="tabelka">
+     <caption> <b>Porównanie z rozkładem Poissona </b></caption>
+     <col width="30%">
+     <col width="35%">
+     <col width="35%">
+     <tr>
+         <td> Komórki </td>
+         <td> Przewidywania teoretyczne </td>
+         <td> Dane empiryczne </td>
+     <tr>
+         <td> 0 punktów </td>
+         <td id="dla0"> 2,7 </td>
+         <td id="emp0"> P2 </td>
+    <tr>
+        <td> 1 punkt </td>
+        <td id="dla1"> 11,8 </td>
+        <td id="emp1"> P4 </td>
+    <tr>
+        <td> 2 punkty </td>
+        <td id="dla2"> P5 </td>
+        <td id="emp2"> P6 </td>
+    <tr>
+        <td> 3 punkty </td>
+        <td id="dla3"> P5 </td>
+        <td id="emp3"> P6 </td>
+    <tr>
+        <td> 4 punkty </td>
+        <td id="dla4"> P5 </td>
+        <td id="emp4"> P6 </td>
+    <tr>
+        <td> 5 lub więcej </td>
+        <td id="dla5"> P5 </td>
+        <td id="emp5"> P6 </td>
+    <tr>
+        <td colspan="3" id="chi2"></td>
+    </tr>
+
+
+</table>
+
+<div class="tekst0">
+    <p> dupd gggg gggg  ggggg       gggggg </p>
+    <p> fdgdhdyd kkkk               jjjjjj</p>
+</div>
+
+
+
+
+
+
+﻿    <script src="jquery-2.1.4.min.js"></script>
+    <script src="jcanvas.min.js"> </script>
+    <script src="kod01.js"></script>
+
+    </body>
+﻿</html>
